@@ -6,7 +6,7 @@ import sys
 
 # Redis config
 redis_client = redis.Redis(
-    host='prod-theily.serverless.apse1.cache.amazonaws.com',
+    host='redis-ltso9m.serverless.use1.cache.amazonaws.com',
     port=6379,
     ssl=True,  # Set to True for ElastiCache with TLS
     decode_responses=True,
@@ -15,11 +15,11 @@ redis_client = redis.Redis(
 
 
 # RDS config
-RDS_HOST = 'database-1.cdgq8umgkxi7.ap-southeast-1.rds.amazonaws.com'
+RDS_HOST = 'database-1.csr6gqysc21k.us-east-1.rds.amazonaws.com'
 RDS_USER = 'admin'
-RDS_PASSWORD = 'admin1234'
-RDS_DB_NAME = 'test'
-TABLE_NAME = 'users'
+RDS_PASSWORD = 'qwerty123'
+RDS_DB_NAME = 'ecommjava'
+TABLE_NAME = 'CATEGORY'
 
 
 def fetch_data_from_rds():
